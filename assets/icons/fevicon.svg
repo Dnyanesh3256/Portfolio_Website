@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <style>
+      /* Style for when the user's system is in dark mode */
+      @media (prefers-color-scheme: dark) {
+        .bg {
+          fill: #0f172a; /* Dark background */
+        }
+        .text {
+          fill: #60a5fa; /* Light blue text */
+        }
+      }
+      /* Style for when the user's system is in light mode */
+      @media (prefers-color-scheme: light) {
+        .bg {
+          fill: #f1f5f9; /* Light background */
+        }
+        .text {
+          fill: #3b82f6; /* Dark blue text */
+        }
+      }
+    </style>
+  </defs>
+  <circle class="bg" cx="50" cy="50" r="50"/>
+  <text x="50" y="50" font-family="'Libre Baskerville', serif" font-size="48" font-weight="700" text-anchor="middle" dy=".35em" class="text">
+    DT
+  </text>
+</svg>
